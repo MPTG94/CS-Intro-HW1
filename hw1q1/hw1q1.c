@@ -36,7 +36,10 @@ int main()
     double root2 = 0;
     printf("Enter the coefficients of a polynomial:\n");
     // Storing input coefficients inside pre-declared variables.
-    scanf("%lf%lf%lf", &a, &b, &c);
+    if (scanf("%lf%lf%lf", &a, &b, &c) != 3)
+    {
+        return 1;
+    }
 
     // TODO: check that other coefficients are legal.
     // Checking the value of the primary coefficient.
@@ -48,7 +51,10 @@ int main()
         // Primary coefficient is different than 0.
         printf("Enter the coefficients of a polynomial:\n");
         // Storing input coefficients inside pre-declared variables.
-        scanf("%lf%lf%lf", &a, &b, &c);
+        if (scanf("%lf%lf%lf", &a, &b, &c) != 3)
+        {
+            return 1;
+        }
     }
 
     // Calculating the discriminant of the polynomial.
