@@ -36,6 +36,8 @@ int main()
     double root2 = 0;
     printf("Enter the coefficients of a polynomial:\n");
     // Storing input coefficients inside pre-declared variables.
+    // The program will exit if invalid input will be provided
+    // (for example chars instead of numbers).
     if (scanf("%lf%lf%lf", &a, &b, &c) != 3)
     {
         return 1;
@@ -51,6 +53,8 @@ int main()
         // Primary coefficient is different than 0.
         printf("Enter the coefficients of a polynomial:\n");
         // Storing input coefficients inside pre-declared variables.
+        // The program will exit if invalid input will be provided
+        // (for example chars instead of numbers).
         if (scanf("%lf%lf%lf", &a, &b, &c) != 3)
         {
             return 1;
