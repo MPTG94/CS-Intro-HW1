@@ -38,12 +38,12 @@ int main()
     // Storing input coefficients inside pre-declared variables.
     // The program will exit if invalid input will be provided
     // (for example chars instead of numbers).
+
     if (scanf("%lf%lf%lf", &a, &b, &c) != 3)
     {
-        return 1;
+        return 0;
     }
 
-    // TODO: check that other coefficients are legal.
     // Checking the value of the primary coefficient.
     while (a > -ZERO && a < ZERO)
     {
@@ -57,7 +57,7 @@ int main()
         // (for example chars instead of numbers).
         if (scanf("%lf%lf%lf", &a, &b, &c) != 3)
         {
-            return 1;
+            return 0;
         }
     }
 
