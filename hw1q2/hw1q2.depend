@@ -1,4 +1,7 @@
 # depslib dependency file v1.0
-1553710234 source:c:\development\c\technion\csintro\hw1q2\hw1q2.c
+1554298845 source:c:\development\c\technion\csintro\hw1q2\hw1q2.c
+	<stdio.h>
+
+1554118403 source:c:\development\c\technion\csintro\cs-intro-hw1\hw1q2\hw1q2.c
 	<stdio.h>
 
